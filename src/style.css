@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.studentList{
+    width:400px;
+    margin:50px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #e67e22;
+    color:#fff;
+    font-size: 18px;
+    padding:20px;
+}
+.studentList .student{
+    margin:10px 0;
+    border-bottom: solid 1px #fff;
+}
+.studentList .student span{
+    width: 85%;
+    display: inline-block;
+}
+.studentList .formAdd input{
+    padding:10px 20px;
+    outline: none;
+    width:100%;
+}
